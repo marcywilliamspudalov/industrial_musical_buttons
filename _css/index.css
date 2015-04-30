@@ -1,0 +1,369 @@
+body {
+	width:100%;
+    color: white;
+	
+}
+
+h1 {
+    font-family: "futura-pt",sans-serif;
+    margin:0 auto;
+    padding:10px;
+    width: 30%;
+  }
+
+p{
+    font-family: "ff-tisa-web-pro",serif;
+    margin: 0 auto;
+    width:50%;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.fibredark{
+width:100%;
+height:100%;
+background: radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+background-repeat:repeat;
+}
+
+
+#instrument{
+	width:80%;
+    position:absolute;
+	margin:20%;
+    
+	
+}
+
+
+.box{
+	border-radius:50px;
+    width:100px;
+    height:100px;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+	
+}
+
+#c {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+}
+
+#c:hover{
+    background-color: #661920;
+   cursor:pointer;
+}
+
+#c:active{
+    background-color: #db1d2d;
+}
+
+#c .light {
+    position: relative;
+     border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 3px 0px #db1d2d, inset 0 5px 0 #828c2b;
+    -moz-box-shadow: inset 0 3px 0px #db1d2d, inset 0 5px 0 #004B23;
+    -webkit-box-shadow: inset 0 3px 0px #db1d2d, inset 0 5px 0 #004B23;
+    background: #ffe913;
+    background: #920000; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #3e181b 39%, #2d0408 67%, #000000 71%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(39%,#008142), color-stop(67%,#2d0408), color-stop(71%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #3e181b 39%,#2d0408 67%,#000000 71%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #661920 39%,#2d0408 67%,#000000 71%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #661920 39%,#2d0408 67%,#000000 71%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #661920 39%,#2d0408 67%,#000000 71%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e181b', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     
+}
+
+
+
+
+#d {
+    background-color: #422018;
+    border: 3px solid #f0421c;
+}
+
+#d:hover{
+
+    background-color: #6e2819;
+    cursor:pointer;
+
+}
+
+#d:active{
+    background-color: #f0421c; 
+}
+
+#d .light {
+    position: relative;
+     border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 3px 0px #f0421c, inset 0 5px 0 #828c2b;
+    -moz-box-shadow: inset 0 3px 0px #f0421c, inset 0 5px 0 #004B23;
+    -webkit-box-shadow: inset 0 3px 0px #f0421c, inset 0 5px 0 #004B23;
+    background: #ffe913;
+    background: #920000; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #f0421c 39%, #2d0408 67%, #000000 71%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(39%,#008142), color-stop(67%,#2d0408), color-stop(71%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #008142 39%,#2d0408 67%,#000000 71%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #6e2819 39%,#2d0408 67%,#000000 71%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #6e2819 39%,#2d0408 67%,#000000 71%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #6e2819 39%,#2d0408 67%,#000000 71%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#920000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     
+}
+
+#e {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+}
+#e:hover{
+    background-color: #735b20;
+    cursor:pointer;
+}
+#e:active{
+    background-color: #fec02d;
+}
+#e .light {
+    position: relative;
+     border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 3px 0px #fec02d, inset 0 5px 0 #828c2b;
+    -moz-box-shadow: inset 0 3px 0px #fec02d, inset 0 5px 0 #004B23;
+    -webkit-box-shadow: inset 0 3px 0px #fec02d, inset 0 5px 0 #004B23;
+    background: #ffe913;
+    background: #920000; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #735b20 39%, #2d0408 67%, #000000 71%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(39%,#008142), color-stop(67%,#2d0408), color-stop(71%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #735b20 39%,#2d0408 67%,#000000 71%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #735b20 39%,#2d0408 67%,#000000 71%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #735b20 39%,#2d0408 67%,#000000 71%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #735b20 39%,#2d0408 67%,#000000 71%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#920000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     
+}
+
+
+#f {
+    background-color: #193c29;
+    border: 3px solid #20d071;
+}
+#f:hover{
+    background-color: #1b613b;
+    cursor:pointer;
+}
+#f:active{
+    background-color: #20d071;
+}
+#f .light {
+    position: relative;
+     border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 3px 0px #20d071, inset 0 5px 0 #828c2b;
+    -moz-box-shadow: inset 0 3px 0px #20d071, inset 0 5px 0 #004B23;
+    -webkit-box-shadow: inset 0 3px 0px #20d071, inset 0 5px 0 #004B23;
+    background: #20d071;
+    background: #20d071; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #1b613b 39%, #2d0408 67%, #000000 71%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(39%,#008142), color-stop(67%,#2d0408), color-stop(71%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #1b613b 39%,#2d0408 67%,#000000 71%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #1b613b 39%,#2d0408 67%,#000000 71%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #1b613b 39%,#2d0408 67%,#000000 71%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #1b613b 39%,#2d0408 67%,#000000 71%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b613b', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     
+}
+
+#g {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
+}
+#g:hover{
+    background-color:  #184d65;
+    cursor:pointer;
+}
+#g:active{
+    background-color: #1a9ddb;
+}
+#g .light {
+    position: relative;
+     border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 3px 0px #1a9ddb, inset 0 5px 0 #828c2b;
+    -moz-box-shadow: inset 0 3px 0px #1a9ddb, inset 0 5px 0 #004B23;
+    -webkit-box-shadow: inset 0 3px 0px #1a9ddb, inset 0 5px 0 #004B23;
+    background: #1a9ddb;
+    background: #920000; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #008142 39%, #2d0408 67%, #000000 71%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(39%,#008142), color-stop(67%,#2d0408), color-stop(71%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #008142 39%,#2d0408 67%,#000000 71%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #184d65 39%,#2d0408 67%,#000000 71%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #184d65 39%,#2d0408 67%,#000000 71%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #184d65 39%,#2d0408 67%,#000000 71%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#920000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     
+}
+
+#a {
+    background-color: #331f35;
+    border: 3px solid #a13fad;
+} 
+#a:hover{
+    background-color: #4e2753;
+    cursor:pointer;
+}
+#a:active{
+    background-color: #a13fad;
+}
+#a .light {
+    position: relative;
+     border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 3px 0px #a13fad, inset 0 5px 0 #828c2b;
+    -moz-box-shadow: inset 0 3px 0px #a13fad, inset 0 5px 0 #004B23;
+    -webkit-box-shadow: inset 0 3px 0px #a13fad, inset 0 5px 0 #004B23;
+    background: #a13fad;
+    background: #920000; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #008142 39%, #2d0408 67%, #000000 71%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(39%,#008142), color-stop(67%,#2d0408), color-stop(71%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #4e2753 39%,#2d0408 67%,#000000 71%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #4e2753 39%,#2d0408 67%,#000000 71%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #4e2753 39%,#2d0408 67%,#000000 71%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #4e2753 39%,#2d0408 67%,#000000 71%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#920000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     
+}
+
+
+#b {
+    border: 3px solid #f26fd4;
+}
+#b:hover{
+    background-color: #6f3a62;
+    cursor:pointer;
+}
+#b .light {
+    position: relative;
+     border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 3px 0px #f26fd4, inset 0 5px 0 #828c2b;
+    -moz-box-shadow: inset 0 3px 0px #f26fd4, inset 0 5px 0 #004B23;
+    -webkit-box-shadow: inset 0 3px 0px #f26fd4, inset 0 5px 0 #004B23;
+    background: #f26fd4;
+    background: #920000; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #008142 39%, #2d0408 67%, #000000 71%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(39%,#6f3a62), color-stop(67%,#2d0408), color-stop(71%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #6f3a62 39%,#2d0408 67%,#000000 71%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #6f3a62 39%,#2d0408 67%,#000000 71%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #6f3a62 39%,#2d0408 67%,#000000 71%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #6f3a62 39%,#2d0408 67%,#000000 71%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#920000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     
+}
+
+
+
+.notification {
+    background: #2D2A2B;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#494852), to(#2A2A30));
+    background-image: -webkit-linear-gradient(#494852, #2A2A30);
+    background-image: -moz-linear-gradient(#494852, #2A2A30);
+    background-image: -o-linear-gradient(#494852, #2A2A30);
+    background-image: linear-gradient(#494852, #2A2A30);
+    box-shadow: inset 0 1px 0px rgba(255, 255, 225, 0.25),0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 0px rgba(255,255,225,0.25),0 1px 2px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 225, 0.25),0 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border: 1px solid #231F20;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+.metal {
+    width: 70%;
+    height: 70%;
+    margin: 15%;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background: #417d9f;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#43637c), to(#2c3c4b));
+    background-image: -webkit-linear-gradient(#43637c, #2c3c4b);
+    background-image: -moz-linear-gradient(#43637c, #2c3c4b);
+    background-image: -o-linear-gradient(#43637c, #2c3c4b);
+    background-image: linear-gradient(#43637c, #2c3c4b);
+    border-top: 2px solid #b8ccd7;
+    padding: 5px;
+    box-shadow: 0 2px 0 #21262c, 0 4px 0 #232429, 0 6px 0 #040003, 0 0 20px #000, 0 5px 20px #000, 0 -2px 0 #6d93a6;
+    -moz-box-shadow: 0 2px 0 #21262c, 0 4px 0 #232429, 0 6px 0 #040003, 0 0 20px #000, 0 5px 20px #000, 0 -2px 0 #6d93a6;
+    -webkit-box-shadow: 0 2px 0 #21262c, 0 4px 0 #232429, 0 6px 0 #040003, 0 0 20px #000, 0 5px 20px #000, 0 -2px 0 #6d93a6;
+}
+
+ 
+/* Interactive Effect on Hover */
+.notification.active {
+    cursor: pointer;
+}
+ 
+.notification.active .hover-effect {
+    -webkit-transition-duration:0.5s;
+    -moz-transition-duration:0.5s;
+    -ms-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    transition-duration:0.5s;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    box-sizing: border-box;
+    border:15px solid rgba(184, 204, 215, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.notification:hover  .hover-effect {
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border:0 solid rgba(184, 204, 215, 0.5)
+}
+
+
+
+
+
+
+
+
